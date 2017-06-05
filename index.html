@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html>
+  <head>
+    <script src="test.js"></script>
+    <title>Conway's Game of Life</title>
+  </head>
+  <body onload="init();">
+    <canvas id = "canvas-test" width=800 height=600>
+      canvas
+    </canvas>
+    <br>
+    <input id="pause-button" type="button" value="Pause (P)" onclick="toggle_pause();" />
+    <input id="randomize-button" type="button" value="Randomize (R)" onclick="randomize_cells();" />
+    <input id="clear-button" type="button" value="Clear (C)" onclick="clear_cells();" />
+    <br>
+    Click (and optionally drag) to toggle the status of cells.
+  </body>
+</html>
